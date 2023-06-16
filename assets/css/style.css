@@ -554,7 +554,7 @@ img {
   max-height: 100px;
 }
 
-.main-header .outer-container .logo-box img{
+.main-header .outer-container .logo-box img, .sticky-header .logo-box img{
   max-height: 100px;
 }
 
