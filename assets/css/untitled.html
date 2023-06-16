@@ -1,0 +1,648 @@
+<style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+article {
+   display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 5rem;
+    grid-row-gap: 0;
+}
+.advertise-title {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -.3px;
+  margin-bottom: 3rem;
+  text-transform: uppercase; }
+  .advertise-title.title-1 {
+    font-size: 3.6em;
+    font-weight: 700;
+    color: #ffffff; }
+    @media (min-width: 768px) {
+      .advertise-title.title-1 {
+        font-size: 4.6em; } }
+  .advertise-title.title-1a {
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #ffffff; }
+    @media (min-width: 768px) {
+      .advertise-title.title-1a {
+        font-size: 3.6em; } }
+  .advertise-title.title-2 {
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #bf0d0b; }
+    @media (min-width: 768px) {
+      .advertise-title.title-2 {
+        font-size: 3.6em; } }
+  .advertise-title.title-3 {
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #0c0c0c; }
+    @media (min-width: 768px) {
+      .advertise-title.title-3 {
+        font-size: 3.6em; } }
+  .advertise-title.logo:before {
+    content: '';
+    margin: 0 auto 3rem;
+    display: block;
+    width: 50%;
+    height: 15rem;
+    background: url(https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2023/02/muo-logo-white.webp) no-repeat center;
+background-size:80%; 
+}
+
+.advertise-text {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -.4px;
+  line-height: 1.2;
+  text-align: center; }
+  .advertise-text.text-1 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 2rem;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .advertise-text.text-1 {
+        max-width: 60%;
+        margin: 0 auto 2rem;
+        text-align: center; } }
+  .advertise-text.text-2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #0c0c0c; 
+text-align: center;
+}
+
+    @media (min-width: 768px) {
+      .advertise-text.text-2 {
+        max-width: 40%;
+        margin: 0 auto 2rem; 
+        text-align: center;} }
+  .advertise-text a {
+    color: #bf0d0b; }
+  .advertise-text.logo:before {
+    content: '';
+    margin: 0 auto 1rem;
+    display: block;
+    width: 50%;
+    height: 15rem;
+    background: url(https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2023/02/muo-logo-black.webp) no-repeat center;
+background-size:100%; }
+
+.advertise-stat-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 5rem; }
+  .advertise-stat-list .advertise-stat-item {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 45%;
+    position: relative;
+    margin: 0 1% 1rem;
+    line-height: 1.2;
+    background-size: cover;
+    background-position: center top; }
+    .advertise-stat-list .advertise-stat-item:before {
+      display: block;
+      content: " ";
+      width: 100%;
+      padding-top: 100%; }
+    .advertise-stat-list .advertise-stat-item > .ratio-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+    @media (min-width: 768px) {
+      .advertise-stat-list .advertise-stat-item {
+        width: 30%;
+        margin: 0 1% 2rem; } }
+    .advertise-stat-list .advertise-stat-item.nl {
+      background-color: #bf0d0b; }
+    .advertise-stat-list .advertise-stat-item.fb {
+      background-color: #3b5998; }
+    .advertise-stat-list .advertise-stat-item.yt {
+      background-color: #fc0d1b; }
+    .advertise-stat-list .advertise-stat-item.tw {
+      background-color: #00aced; }
+    .advertise-stat-list .advertise-stat-item.pn {
+      background-color: #cb2027; }
+  .advertise-stat-list .ratio-content {
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end; }
+    .advertise-stat-list .ratio-content.gradient {
+      background-color: red;
+      background: linear-gradient(to bottom, rgba(191, 13, 11, 0.35) 0%, #bf0d0b); }
+  .advertise-stat-list strong {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -.3px;
+    font-size: 2em;
+    font-weight: 700;
+    color: #ffffff; }
+    @media (min-width: 768px) {
+      .advertise-stat-list strong {
+        font-size: 3.5em; } }
+    .advertise-stat-list strong:before {
+      display: block;
+      font-size: .6em; }
+      @media (min-width: 768px) {
+        .advertise-stat-list strong:before {
+          font-size: .8em; } }
+  .advertise-stat-list span {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -.3px;
+    font-size: .8em;
+    font-weight: 400;
+    color: #ffffff; }
+    @media (min-width: 768px) {
+      .advertise-stat-list span {
+    font-size: 1em;
+      } }
+
+.advertise-partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 5rem; }
+  @media (min-width: 768px) {
+    .advertise-partners-list {
+      justify-content: center; } }
+  .advertise-partners-list .advertise-partners-item {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    height: auto;
+    margin: 0 1% 3rem; }
+    @media (min-width: 768px) {
+      .advertise-partners-list .advertise-partners-item {
+        width: 20%; } }
+    .advertise-partners-list .advertise-partners-item a {
+      display: block;
+      text-decoration: none;
+      width: 100%; }
+    .advertise-partners-list .advertise-partners-item img {
+      width: 70%;
+      height: auto;
+     outline: 0;
+      margin: 0 auto; }
+
+/*************************************************************
+ADVERTISE - General
+*************************************************************/
+.advertise-block {
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 7rem;
+  padding: 2rem; }
+  .advertise-block img {
+    width: 100%;
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      .advertise-block img {
+        width: 50%;height: auto; } }
+
+/* specific block */
+.adv-bl-with-us {
+  background-color: #0c0c0c;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin: -2rem -2rem 0;
+  padding: 10rem 2rem 15rem;
+  position: relative; }
+  .adv-bl-with-us .advertise-text {
+    margin-bottom: 10rem; }
+  @media (min-width: 768px) {
+    .adv-bl-with-us {
+      margin: -3rem -2rem 0; } }
+  @media (min-width: 768px) {
+    .adv-bl-with-us:before, .adv-bl-with-us:after {
+      content: '';
+      z-index: 0;
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: calc( (100vw - 1100px) / 2);
+      background: #0c0c0c; } }
+  @media (min-width: 768px) {
+    .adv-bl-with-us:before {
+      left: calc( (100vw - 1100px) / -2); } }
+  @media (min-width: 768px) {
+    .adv-bl-with-us:after {
+      right: calc( (100vw - 1100px) / -2); } }
+
+.adv-bl-top-reader {
+  margin: 0 -2rem;
+  position: relative; }
+  @media (min-width: 768px) {
+    .adv-bl-top-reader img {
+      width: 60%; } }
+  @media (min-width: 1110px) {
+    .adv-bl-top-reader:before, .adv-bl-top-reader:after {
+      content: '';
+      z-index: 0;
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: calc( (100vw - 1100px) / 2);
+      background: #0c0c0c; } }
+  @media (min-width: 1110px) {
+    .adv-bl-top-reader:before {
+      left: calc( (100vw - 1100px) / -2); } }
+  @media (min-width: 1310px) {
+    .adv-bl-top-reader:after {
+      right: calc( (100vw - 1100px) / -2); } }
+
+.adv-bl-with-us, .adv-bl-top-reader {
+  background-color: #0c0c0c; }
+
+.adv-bl-social {
+  padding-top: 10rem; }
+
+.adv-bl-contact {
+  font-size: 2em;
+  .adv-bl-contact .advertise-text {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      .adv-bl-contact .advertise-text {
+        font-size: 1.75em;
+        max-width: 50%; } }
+</style>
+<style class="darkreader darkreader--cors" media="screen" type="text/css">article {
+   display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 5rem;
+    grid-row-gap: 0;
+}
+.advertise-title {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -.3px;
+  margin-bottom: 3rem;
+  text-transform: uppercase; }
+  .advertise-title.title-1 {
+    font-size: 3.6em;
+    font-weight: 700;
+    color: #ffffff; }
+    @media (min-width: 768px) {
+      .advertise-title.title-1 {
+        font-size: 4.6em; } }
+  .advertise-title.title-1a {
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #ffffff; }
+    @media (min-width: 768px) {
+      .advertise-title.title-1a {
+        font-size: 3.6em; } }
+  .advertise-title.title-2 {
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #bf0d0b; }
+    @media (min-width: 768px) {
+      .advertise-title.title-2 {
+        font-size: 3.6em; } }
+  .advertise-title.title-3 {
+    font-size: 2.4em;
+    font-weight: 700;
+    color: #0c0c0c; }
+    @media (min-width: 768px) {
+      .advertise-title.title-3 {
+        font-size: 3.6em; } }
+  .advertise-title.logo:before {
+    content: '';
+    margin: 0 auto 3rem;
+    display: block;
+    width: 50%;
+    height: 15rem;
+    background: url('https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2023/02/muo-logo-white.webp') no-repeat center; 
+background-size:80%;}
+
+.advertise-text {
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -.4px;
+  line-height: 1.2;
+  text-align: left; }
+  .advertise-text.text-1 {
+    font-size: 2em;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 2rem;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .advertise-text.text-1 {
+        max-width: 60%;
+        margin: 0 auto 2rem;
+        text-align: left; } }
+  .advertise-text.text-2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    color: #0c0c0c; text-align: center;}
+    @media (min-width: 768px) {
+      .advertise-text.text-2 {
+        max-width: 40%;
+        margin: 0 auto 2rem;text-align: center; } }
+  .advertise-text a {
+    color: #bf0d0b; }
+  .advertise-text.logo:before {
+    content: '';
+    margin: 0 auto 1rem;
+    display: block;
+    width: 50%;
+    height: 15rem;
+    background: url('https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2023/02/muo-logo-black.webp') no-repeat center;
+background-size:100%; }
+
+.advertise-stat-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 5rem; }
+  .advertise-stat-list .advertise-stat-item {
+    position: relative;
+    display: block;
+    text-align: left;
+    width: 45%;
+    position: relative;
+    margin: 0 1% 1rem;
+    line-height: 1.2;
+    background-size: cover;
+    background-position: center top; }
+    .advertise-stat-list .advertise-stat-item:before {
+      display: block;
+      content: " ";
+      width: 100%;
+      padding-top: 100%; }
+    .advertise-stat-list .advertise-stat-item > .ratio-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+    @media (min-width: 768px) {
+      .advertise-stat-list .advertise-stat-item {
+        width: 30%;
+        margin: 0 1% 2rem; } }
+    .advertise-stat-list .advertise-stat-item.nl {
+      background-color: #bf0d0b; }
+    .advertise-stat-list .advertise-stat-item.fb {
+      background-color: #3b5998; }
+    .advertise-stat-list .advertise-stat-item.yt {
+      background-color: #fc0d1b; }
+    .advertise-stat-list .advertise-stat-item.tw {
+      background-color: #00aced; }
+    .advertise-stat-list .advertise-stat-item.pn {
+      background-color: #cb2027; }
+  .advertise-stat-list .ratio-content {
+    padding: 2rem;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end; }
+    .advertise-stat-list .ratio-content.gradient {
+      background-color: red;
+      background: linear-gradient(to bottom, rgba(191, 13, 11, 0.35) 0%, #bf0d0b); }
+  .advertise-stat-list strong {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -.3px;
+    font-size: 2em;
+    font-weight: 700;
+    color: #ffffff; }
+    @media (min-width: 768px) {
+      .advertise-stat-list strong {
+        font-size: 3.5em; } }
+    .advertise-stat-list strong:before {
+      display: block;
+      font-size: .6em; }
+      @media (min-width: 768px) {
+        .advertise-stat-list strong:before {
+          font-size: .8em; } }
+  .advertise-stat-list span {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -.3px;
+    font-size: .8em;
+    font-weight: 400;
+    color: #ffffff; }
+    @media (min-width: 768px) {
+      .advertise-stat-list span {
+    font-size: 1em;
+      } }
+
+.advertise-partners-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0 5rem; }
+  @media (min-width: 768px) {
+    .advertise-partners-list {
+      justify-content: center; } }
+  .advertise-partners-list .advertise-partners-item {
+    display: flex;
+    align-items: center;
+    width: 45%;
+    height: auto;
+    margin: 0 1% 3rem; }
+    @media (min-width: 768px) {
+      .advertise-partners-list .advertise-partners-item {
+        width: 20%; } }
+    .advertise-partners-list .advertise-partners-item a {
+      display: block;
+      text-decoration: none;
+      width: 100%; }
+    .advertise-partners-list .advertise-partners-item img {
+      width: 70%;
+      height: auto;
+     outline: 0;
+      margin: 0 auto; }
+
+
+.advertise-block {
+  background-color: #ffffff;
+  text-align: center;
+  margin-bottom: 7rem;
+  padding: 2rem; }
+  .advertise-block img {
+    width: 100%;
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      .advertise-block img {
+        width: 50%;height: auto; } }
+
+
+.adv-bl-with-us {
+  background-color: #0c0c0c;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  margin: -2rem -2rem 0;
+  padding: 10rem 2rem 15rem;
+  position: relative; }
+  .adv-bl-with-us .advertise-text {
+    margin-bottom: 10rem; }
+  @media (min-width: 768px) {
+    .adv-bl-with-us {
+      margin: -3rem -2rem 0; } }
+  @media (min-width: 768px) {
+    .adv-bl-with-us:before, .adv-bl-with-us:after {
+      content: '';
+      z-index: 0;
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: calc( (100vw - 1100px) / 2);
+      background: #0c0c0c; } }
+  @media (min-width: 768px) {
+    .adv-bl-with-us:before {
+      left: calc( (100vw - 1100px) / -2); } }
+  @media (min-width: 768px) {
+    .adv-bl-with-us:after {
+      right: calc( (100vw - 1100px) / -2); } }
+
+.adv-bl-top-reader {
+  margin: 0 -2rem;
+  position: relative; }
+  @media (min-width: 768px) {
+    .adv-bl-top-reader img {
+      width: 60%; } }
+  @media (min-width: 1110px) {
+    .adv-bl-top-reader:before, .adv-bl-top-reader:after {
+      content: '';
+      z-index: 0;
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: calc( (100vw - 1100px) / 2);
+      background: #0c0c0c; } }
+  @media (min-width: 1110px) {
+    .adv-bl-top-reader:before {
+      left: calc( (100vw - 1100px) / -2); } }
+  @media (min-width: 1310px) {
+    .adv-bl-top-reader:after {
+      right: calc( (100vw - 1100px) / -2); } }
+
+.adv-bl-with-us, .adv-bl-top-reader {
+  background-color: #0c0c0c; }
+
+.adv-bl-social {
+  padding-top: 10rem; }
+
+.adv-bl-contact {
+  font-size: 2em;
+  .adv-bl-contact .advertise-text {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 0 auto; }
+    @media (min-width: 768px) {
+      .adv-bl-contact .advertise-text {
+        font-size: 1.75em;
+        max-width: 50%; } }
+</style>
+<style class="darkreader darkreader--sync" media="screen" type="text/css">
+</style>
+<article style="font-size:10px;">
+<section class="advertise-block adv-bl-with-us" style="background-image:url('https://www.makeuseof.com/public/build/images/bg-advert-with-us.9d8fc55f.jpg') ">
+<h1 class="advertise-title title-1 logo">Advertise with us</h1>
+
+<p class="advertise-text text-1">We have the eyes of over 28 million readers every month. Let us help you get your message across.</p>
+
+<ul class="advertise-stat-list">
+	<li class="advertise-stat-item " style="background-image:url('https://www.makeuseof.com/public/build/images/stats-image-2.d8b46aa8.jpg') ">
+	<div class="ratio-content gradient"><strong>30M</strong><span>UNIQUE VIEWS<br />
+	PER MONTH</span></div>
+	</li>
+	<li class="advertise-stat-item " style="background-image:url('https://www.makeuseof.com/public/build/images/stats-image-3.876ac048.jpg') ">
+	<div class="ratio-content gradient"><strong>365K</strong><span>NEEWSLETTER SUBSCRIBERS<br />
+	USERS</span></div>
+	</li>
+	<li class="advertise-stat-item " style="background-image:url('https://www.makeuseof.com/public/build/images/stats-image-4.abb7ba48.jpg') ">
+	<div class="ratio-content gradient"><strong>267M</strong><span>Social Footprint<br />
+	18-34</span></div>
+	</li>
+</ul>
+</section>
+
+<section class="advertise-block adv-bl-top-reader">
+<h3 class="advertise-title title-1a">Where our top readers are from</h3>
+<img alt="" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2023/02/reader-location-23.png
+" /></section>
+
+
+
+<section class="advertise-block adv-bl-sponsored-art">
+<h3 class="advertise-title title-2">SPONSORED ARTICLES</h3>
+
+<p class="advertise-text text-2">We work closely with clients to produce comprehensive reviews and topical articles. We inspire to offer a unique perspective to be carried across to the reader, while subtly instilling your brand message. Sponsored articles appear on our homepage, and they may also be pinned there for maximum exposure.</p>
+<img alt="" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2023/02/sponsored-articles.png" /></section>
+
+<section class="advertise-block adv-bl-sponsored-news">
+<h3 class="advertise-title title-2">SPONSORED NEWSLETTER</h3>
+
+<p class="advertise-text text-2">You have a message. We have the audience. We&rsquo;ll help you send custom emails, complete with images and links, to over 250,000 recipients. With a minimum of 30,000 opens guaranteed, and click-through rate of approximately 6%, sponsored newsletters is the ideal medium to address our readers directly.</p>
+
+<p class="advertise-text text-2">It&rsquo;s so effective, our clients keep coming back.</p>
+<img alt="" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2023/02/sponsored-newsletter.png" /></section>
+
+<section class="advertise-block adv-bl-sponsored-guide">
+<h3 class="advertise-title title-2">SPONSORED GUIDE</h3>
+
+<p class="advertise-text text-2">Guides are more comprehensive versions of articles, where the topic is much too broad to be covered in a single post. Guides are also popular amongst our readers because they&#39;re converted into PDF for ease of distribution and sharing.</p>
+<img alt="" src="https://static0.makeuseofimages.com/wordpress/wp-content/uploads/2023/02/sponsored-guide.png" /></section>
+
+<section class="advertise-block adv-bl-guide">
+<h3 class="advertise-title title-2">DISPLAY</h3>
+
+<p class="advertise-text text-2">Engaging, eye-catching, and customisable. Display ads are one of the most flexible advertising options we offer. We&rsquo;re pleased to help drive awareness to your brand on mobile and desktop devices.</p>
+<img alt="" src="https://www.makeuseof.com/public/build/images/banner-ads.fe4777f4.png" /></section>
+
+<section class="advertise-block adv-bl-partners">
+<h3 class="advertise-title title-3">Our partners</h3>
+
+<ul class="advertise-partners-list">
+	<li class="advertise-partners-item"><a href="https://www.adobe.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/adobe-partner.0620d6ac.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.bitdefender.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/p_bitdefender.e5375af8.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://global.canon/en/index.html" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/canon-partner.aaad3947.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://freshdesk.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/freshdesk-partner.33771dcc.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.intellinote.net/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/intellinote-partner.b74cfa9f.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.opera.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/opera-partner.6360b029.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://mediatemple.net/?AID=12479868&amp;PID=7251228&amp;utm_source=CJ&amp;utm_medium=affiliate" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/media-temple-partner.943e1f5b.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.fotolia.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/fotolia-partner.2db72c5e.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.qksrv.net/links/7251228/type/am/https://nordvpn.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/nordvpn-partner.6826f3fa.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://placeit.net/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/placeit-logo.36bb61ff.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.udemy.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/udemy-partner.77edc802.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.skillshare.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/skillshare.2bd49b5e.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://invoicely.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/invoicely-blue.618c3586.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.hp.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/hp.79c1d00e.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.expressvpn.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/expressvpn.1ec461cb.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://quickbooks.intuit.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/logo-intuit-preferred.21a44c6d.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://symantec-norton.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/Norton_av_logo.91f4aa5b.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.msp360.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/cloudberry.8be6eaff.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://paribus.co/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/paribus.6b5b2d94.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.qksrv.net/links/7251228/type/am/https://www.imyfone.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/imyfone.ff2184fc.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.nch.com.au/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/nch.b49e10cd.jpg" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.cyberghostvpn.com/en_US/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/cyberghost-logo.cbf8a5d5.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.qksrv.net/links/7251228/type/am/https://www.dell.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/dell-logo.06f93258.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://envato.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/envato-logo.40f83129.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://ipgeolocationapi.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/ipgeolocation-api.d1820808.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://monday.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/mondaydotcom.36607a1a.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.qksrv.net/links/7251228/type/am/https://www.remembear.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/remembear-logo.a0353aca.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://brilliant.org/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/Brilliant-Org-Company-Logo-Large.cc125d30.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.rosettastone.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/rosetta-stone-logo.ed1e20f7.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://protonmail.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/ProtonMail-Logo-Dark.9bf0dccb.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://novoresume.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/nordvpn-partner.6826f3fa.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://zadarma.com/en/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/Zadarma-Logo.77a58bd0.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.goskills.com/" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/GoSkills-Logo.4382ef39.png" /></a></li>
+	<li class="advertise-partners-item"><a href="https://www.semrush.com/?cjevent=07f658aedbdd11ea82c1035a0a240613&amp;utm_source=berush&amp;utm_medium=cj&amp;utm_campaign=4112715&amp;utm_term=13990962&amp;utm_content=7251228" target="_blank"><img alt="" src="https://www.makeuseof.com/public/build/images/SEMrush-Logo.124326c5.png" /></a></li>
+</ul>
+</section>
+
+<section class="advertise-block adv-bl-contact">
+<p class="advertise-text text-2 logo">To find out more, please contact <a href="mailto:partnerships@makeuseof.com">partnerships@makeuseof.com</a></p>
+</section>
+</article>
