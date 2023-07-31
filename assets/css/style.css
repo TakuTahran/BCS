@@ -3126,7 +3126,11 @@ div#mCSB_1_container{
   display: block;
   margin: 0 auto;
 }
-
+.service-style-two.profile .image-box img{
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
 /** process-style-two **/
 
@@ -4131,6 +4135,8 @@ div#mCSB_1_container{
   display: block;
   overflow: hidden;
   border-radius: 20px;
+  max-height: 300px;
+
 }
 
 .team-block-one .inner-box .image-box img{
@@ -4211,6 +4217,8 @@ div#mCSB_1_container{
 .team-section .inner-content{
   position: relative;
   margin: 0px -5px;
+  padding-bottom: 2rem;
+
 }
 
 .team-section .sec-title{
