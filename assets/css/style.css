@@ -5002,12 +5002,69 @@ div#mCSB_1_container{
   margin-bottom: 30px;
 }
 
-
 .social-links {
     display: flex;
     justify-content: center;
 }
 
+
+.icon-social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-design:hover{
+  background-color: #234190;
+  color: #fff;
+
+}
+
+.icon-design{
+  border-radius: 50%;
+  font-size: 14px;
+  color: #3d415b;
+  background: #ebf0f7;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  color: #3d415b;
+  background: #ebf0f7;
+}
+
+
 .main-footer {
     text-align: center;
+}
+
+.icon-rainbow-sports{
+  background-image: url('../images/rainbow_no_name.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.icon-cancun{
+  background-image: url('../images/CFC.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-left: 6px;
+  margin-top: 2px;
+  width: 95%;
+  height: 95%;
+}
+
+.icon-leganes{
+  background-image: url('../images/CDL.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 13px;
+  width: 75%;
+  height: 80%;
 }
