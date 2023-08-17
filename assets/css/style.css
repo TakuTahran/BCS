@@ -2655,6 +2655,7 @@ div#mCSB_1_container{
 .main-footer .footer-bottom{
   position: relative;
   padding: 45px 0px;
+  text-align: center;
 }
 
 .main-footer .footer-bottom .copyright a{
@@ -4999,4 +5000,14 @@ div#mCSB_1_container{
 .contact-section .form-inner h3{
   line-height: 34px;
   margin-bottom: 30px;
+}
+
+
+.social-links {
+    display: flex;
+    justify-content: center;
+}
+
+.main-footer {
+    text-align: center;
 }
