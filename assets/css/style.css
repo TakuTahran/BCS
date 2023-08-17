@@ -5060,7 +5060,7 @@ div#mCSB_1_container{
 }
 
 .icon-leganes{
-  background-image: url('../images/CDL.png');
+  background-image: url('/assets/images/CDL.png');
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
