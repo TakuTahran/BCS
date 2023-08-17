@@ -5040,7 +5040,7 @@ div#mCSB_1_container{
 }
 
 .icon-rainbow-sports{
-  background-image: url('../images/rainbow_no_name.png');
+  background-image: url('/assets/images/rainbow_no_name.png');
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
@@ -5049,7 +5049,7 @@ div#mCSB_1_container{
 }
 
 .icon-cancun{
-  background-image: url('../images/CFC.png');
+  background-image: url('/assets/images/CFC.png');
   background-size: contain;
   background-repeat: no-repeat;
   display: inline-block;
